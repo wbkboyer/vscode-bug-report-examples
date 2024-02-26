@@ -3,7 +3,9 @@ A repo with a simple Hello World C program to demonstrate issues with the VSCode
 
 ## Summary of issues encountered
 * For Clang on MacOS, spaces added to enclose `-g` parameter causes the build to fail
+    * To be resolved by [vscode-cpptools #12001](https://github.com/microsoft/vscode-cpptools/issues/12001)
 * For MinGW GCC, spaces added to enclose `args`, which causes the build to fail
+    * To be resolved by [vscode-cpptools #12001](https://github.com/microsoft/vscode-cpptools/issues/12001)
 * For MSVC compiler toolchain
     * Debugger breakpoints not working with external console ([others](https://stackoverflow.com/questions/53108690/visual-studio-code-c-debugger-doesnt-start) seem to have encountered this issue _years_ ago)
     * On some projects, `externalConsole` is deprecated and we are instructed to use `console`, but for other projects, `externalConsole` is accepted and there's an error that `console` is not an accepted key.
