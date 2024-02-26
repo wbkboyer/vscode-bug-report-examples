@@ -2,6 +2,7 @@
 A repo with a simple Hello World C program to demonstrate issues with the VSCode C/C++ Extension v1.19.4 on Windows.
 
 ## Summary of issues encountered
+* For Clang on MacOS, spaces added to enclose `-g` parameter causes the build to fail
 * For MinGW GCC, spaces added to enclose `args`, which causes the build to fail
 * For MSVC compiler toolchain
     * Debugger breakpoints not working with external console ([others](https://stackoverflow.com/questions/53108690/visual-studio-code-c-debugger-doesnt-start) seem to have encountered this issue _years_ ago)
